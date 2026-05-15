@@ -210,6 +210,43 @@ document.addEventListener('DOMContentLoaded', () => {
   initProjects();
   initCertificates();
   initScroll();
+  
+  // AJAX Form Submission
+  const contactForm = document.getElementById('contact-form');
+  if (contactForm) {
+    contactForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const submitBtn = contactForm.querySelector('.btn-submit');
+      const originalBtnText = submitBtn.innerHTML;
+      
+      submitBtn.disabled = true;
+      submitBtn.innerHTML = 'Sending... <i data-lucide="loader-2" class="spin"></i>';
+      if (typeof lucide !== 'undefined') lucide.createIcons();
+
+      const formData = new FormData(contactForm);
+      try {
+        const response = await fetch(contactForm.action, {
+          method: 'POST',
+          body: formData,
+          headers: { 'Accept': 'application/json' }
+        });
+
+        if (response.ok) {
+          alert('Message sent successfully! 🚀 I will get back to you soon.');
+          contactForm.reset();
+        } else {
+          alert('Oops! There was a problem sending your message. Please try again.');
+        }
+      } catch (error) {
+        alert('Oops! There was a problem sending your message. Please try again.');
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = originalBtnText;
+        if (typeof lucide !== 'undefined') lucide.createIcons();
+      }
+    });
+  }
+
   if (typeof lucide !== 'undefined') {
     lucide.createIcons();
   }

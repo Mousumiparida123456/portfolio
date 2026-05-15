@@ -631,7 +631,13 @@ section {
   width: 20px;
   height: 20px;
 }
+.btn-submit i.spin {
+  animation: spin 1s linear infinite;
+}
 
+@keyframes spin {
+  100% { transform: rotate(360deg); }
+}
 /* --- Buttons --- */
 .btn {
   padding: 1rem 2.5rem;

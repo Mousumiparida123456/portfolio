@@ -11,7 +11,7 @@ const projects = [
     description: "Complete restaurant management system with Razorpay integration for seamless payments. Built with Prisma for robust database management.",
     tech: ["#Prisma", "#Razorpay", "#Express"],
     image: "projects/kitchen.png",
-    link: "https://github.com/Mousumiparida123456/restaurant-app"
+    link: "https://github.com/Mousumiparida123456/Jhunu-s-kitchen"
   },
   {
     title: "SMART_TRAVEL",

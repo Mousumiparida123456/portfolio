@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mousumi Parida | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="/src/style.css">
+  </head>
+  <body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+    <div class="stars-container"></div>
+    <div class="animated-bg"></div>
+    
+    <nav class="glass-nav">
+      <div class="nav-content">
+        <span class="logo">&lt; Mousumi Parida /&gt;</span>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section id="hero" class="hero-section">
+        <div class="container hero-container">
+          <div class="badge-container">
+            <span class="status-badge">
+              <span class="pulse"></span>
+              Available for Projects
+            </span>
+          </div>
+          <h1 class="hero-title">Building <span class="gradient-text">Scalable Solutions</span> for the future.</h1>
+          <p class="hero-subtitle">B.Tech CSE Student @ VIT Bhopal | Full Stack Developer & AI Enthusiast</p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-outline">Let's Talk</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about-section">
+        <div class="container">
+          <p class="section-caption">INTRODUCTION</p>
+          <h2 class="section-title">Overview.</h2>
+          <div class="about-content glass reveal">
+            <p>I am a B.Tech Computer Science Engineering student specializing in **Health Informatics** at **VIT Bhopal University** (Class of 2029). I am deeply passionate about **Data Structures and Algorithms (DSA)**, Web Development, and Machine Learning.</p>
+            <p>My current focus is on building a robust foundation in **Generative AI, Large Language Models (LLMs), and Deep Learning**. I love solving complex problems and crafting efficient, scalable digital solutions that make an impact.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="education-section">
+        <div class="container">
+          <p class="section-caption">MY ACADEMIC JOURNEY</p>
+          <h2 class="section-title">Education.</h2>
+          <div class="timeline">
+            <div class="timeline-line"></div>
+            <!-- VIT Bhopal -->
+            <div class="timeline-item reveal left">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card glass">
+                <span class="date">Aug 2025 — May 2029</span>
+                <h3>Vellore Institute of Technology (VIT)</h3>
+                <p class="degree">B.Tech in Computer Science & Health Informatics</p>
+                <p class="grade">Grade: <strong>CGPA: 8.78</strong></p>
+                <p class="description">Academic focus on advanced problem solving, health data analytics, and software architecture.</p>
+              </div>
+            </div>
+            
+            <!-- Mother's Public School -->
+            <div class="timeline-item reveal right">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card glass">
+                <span class="date">Class 12</span>
+                <h3>Mother's Public School</h3>
+                <p class="degree">Higher Secondary Education</p>
+                <p class="grade">Grade: <strong>93.4%</strong></p>
+                <p class="description">Focused on Physics, Chemistry, and Mathematics (PCM) with a strong foundation in core sciences.</p>
+              </div>
+            </div>
+
+            <!-- Kendriya Vidyalaya -->
+            <div class="timeline-item reveal left">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card glass">
+                <span class="date">Class 10</span>
+                <h3>Kendriya Vidyalaya</h3>
+                <p class="degree">Secondary Education</p>
+                <p class="grade">Grade: <strong>99.2%</strong></p>
+                <p class="description">Consistently top of the class with a perfect focus on balanced academic and co-curricular activities.</p>
+              </div>
+            </div>
+            <!-- Add more education items if available, or just one for now -->
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects-section">
+        <div class="container">
+          <p class="section-caption">INNOVATIVE CREATIONS</p>
+          <h2 class="section-title">Projects.</h2>
+          <div class="projects-grid" id="projects-container">
+            <!-- Projects will be injected via JS -->
+          </div>
+        </div>
+      </section>
+
+      <section id="certificates" class="certificates-section">
+        <div class="container">
+          <p class="section-caption">ACHIEVEMENTS</p>
+          <h2 class="section-title">Certificates.</h2>
+          <div class="certificates-grid" id="certificates-container">
+            <!-- Certificates will be injected via JS -->
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+          <div class="contact-header">
+            <div>
+              <p class="section-caption">GET IN TOUCH</p>
+              <h2 class="section-title" style="margin-bottom: 2rem;">Contact.</h2>
+            </div>
+            <a href="tel:4372161611" class="contact-phone">
+              <i data-lucide="phone"></i>
+              (437) 216-1611
+            </a>
+          </div>
+
+          <div class="contact-card glass reveal">
+            <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+              <div class="form-row">
+                <div class="form-group">
+                  <label><i data-lucide="user"></i> Name</label>
+                  <input type="text" class="form-input" placeholder="Your name" required>
+                </div>
+                <div class="form-group">
+                  <label><i data-lucide="mail"></i> Email</label>
+                  <input type="email" class="form-input" placeholder="Your email" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label><i data-lucide="message-square"></i> Message</label>
+                <textarea class="form-textarea" placeholder="Hey Mousumi, love the website! I'd like to chat about some opportunities you might like! 🎉" required></textarea>
+              </div>
+
+              <div class="captcha-container">
+                <div class="captcha-box">
+                  <input type="checkbox" id="captcha-check">
+                  <span class="captcha-text">I'm not a robot</span>
+                  <div class="captcha-brand">
+                    <img src="https://www.gstatic.com/recaptcha/api2/logo_48.png" alt="reCAPTCHA" width="24" height="24">
+                    <span>reCAPTCHA</span>
+                  </div>
+                </div>
+                <p class="captcha-terms">Protected by reCAPTCHA Enterprise. ✖</p>
+              </div>
+
+              <button type="submit" class="btn btn-submit">
+                Send Message <i data-lucide="send"></i>
+              </button>
+            </form>
+          </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2024 Mousumi Parida. Built with ❤️ and Modern Aesthetics.</p>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>

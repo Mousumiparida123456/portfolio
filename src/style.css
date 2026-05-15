@@ -193,8 +193,8 @@ section {
 .glass {
   background: var(--surface);
   border: 1px solid var(--glass-border);
-  border-radius: 2rem;
-  padding: 2.5rem;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
   transition: var(--transition);
 }
 
@@ -215,8 +215,8 @@ section {
 
 .profile-img-wrapper {
   position: relative;
-  width: 280px;
-  height: 280px;
+  width: 220px;
+  height: 220px;
   border-radius: 50%;
   padding: 10px;
   background: linear-gradient(45deg, #915eff, #80e2ff);
@@ -353,7 +353,7 @@ section {
 .timeline-item {
   position: relative;
   width: 50%;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   display: flex;
 }
 
@@ -395,7 +395,7 @@ section {
 }
 
 .timeline-card h3 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin-bottom: 0.5rem;
 }
 
@@ -420,12 +420,12 @@ section {
 /* --- Project Cards --- */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-  gap: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
 }
 
 .project-card {
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 .project-image-container {
@@ -450,13 +450,13 @@ section {
 /* --- Certificates Grid --- */
 .certificates-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
 }
 
 .certificate-card {
   text-align: center;
-  padding: 2.5rem;
+  padding: 1.5rem;
 }
 
 .certificate-card i {

@@ -142,7 +142,7 @@ body {
 }
 
 section {
-  padding: 100px 0;
+  padding: 60px 0;
 }
 
 /* --- Hero Section --- */
@@ -353,7 +353,7 @@ section {
 .timeline-item {
   position: relative;
   width: 50%;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   display: flex;
 }
 
@@ -706,7 +706,7 @@ section {
     width: 100%; 
     padding-left: 50px !important; 
     padding-right: 0 !important; 
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
   .timeline-item.right { left: 0; }
   .timeline-dot { left: 10px !important; }

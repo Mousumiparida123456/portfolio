@@ -210,4 +210,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initProjects();
   initCertificates();
   initScroll();
+  if (typeof lucide !== 'undefined') {
+    lucide.createIcons();
+  }
 });

@@ -499,16 +499,22 @@ section {
   height: 24px;
 }
 
+.contact-card {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem !important;
+}
+
 .contact-form {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.25rem;
 }
 
 .form-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  gap: 1.25rem;
 }
 
 .form-group {
@@ -535,7 +541,7 @@ section {
   background: rgba(5, 8, 22, 0.5);
   border: 1px solid var(--glass-border);
   border-radius: 1rem;
-  padding: 1.25rem;
+  padding: 1rem;
   color: white;
   font-family: inherit;
   font-size: 1rem;

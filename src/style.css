@@ -500,21 +500,21 @@ section {
 }
 
 .contact-card {
-  max-width: 800px;
+  max-width: 600px;
   margin: 0 auto;
-  padding: 2rem !important;
+  padding: 1.5rem !important;
 }
 
 .contact-form {
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
+  gap: 1rem;
 }
 
 .form-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1.25rem;
+  gap: 1rem;
 }
 
 .form-group {
@@ -555,7 +555,7 @@ section {
 }
 
 .form-textarea {
-  min-height: 180px;
+  min-height: 120px;
   resize: vertical;
 }
 

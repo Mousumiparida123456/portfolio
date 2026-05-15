@@ -3,21 +3,21 @@ const projects = [
     title: "NEXORA_FINANCE",
     description: "A premium Finance API server built with TypeScript, Node.js, and Drizzle ORM. Features real-time transaction processing and secure data handling.",
     tech: ["#TypeScript", "#NodeJS", "#PostgreSQL"],
-    image: "/projects/nexora.png",
+    image: "projects/nexora.png",
     link: "https://github.com/Mousumiparida123456/NEXORA_FINANCE"
   },
   {
     title: "Jhunu's Kitchen",
     description: "Complete restaurant management system with Razorpay integration for seamless payments. Built with Prisma for robust database management.",
     tech: ["#Prisma", "#Razorpay", "#Express"],
-    image: "/projects/kitchen.png",
+    image: "projects/kitchen.png",
     link: "https://github.com/Mousumiparida123456/restaurant-app"
   },
   {
     title: "SMART_TRAVEL",
     description: "AI-powered travel recommendation engine using Machine Learning to suggest personalized destinations and itineraries.",
     tech: ["#Python", "#ML", "#ScikitLearn"],
-    image: "/projects/travel.png",
+    image: "projects/travel.png",
     link: "https://github.com/Mousumiparida123456/AIML_Project_SMART_TRAVEL"
   },
   {
